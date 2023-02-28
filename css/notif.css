@@ -1,0 +1,53 @@
+#notif-page{
+    padding: 100px 0;
+}
+
+#notif-page h1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3.5em;
+}
+
+
+.page-notif{
+    
+    background-color: white;
+    display: grid;
+    margin: auto;
+    margin-top: 15px;
+    grid-template-columns: 120px auto;
+    grid-template-rows: 2fr 1fr;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(219,219,219,1);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(219,219,219,1);
+    box-shadow: 0px 2px 9px 0px rgba(219,219,219,1);
+}
+
+.page-notif .prof-pic{
+    width: 100px;
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.page-notif h5{
+    font-weight: 400;
+    font-size: 1.4em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.feed-notif p{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
